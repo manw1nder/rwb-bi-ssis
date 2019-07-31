@@ -26,26 +26,44 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">US-MEN-L0210</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtEuZCmTD2kSjLyzd/g/cEAAAAAACAAAAAAADZgAAwAAAABAAAAA8Rr96uZQm7YxPMfX4wCD8AAAAAASAAACgAAAAEAAAALGF2S1JEdcxtknTQJqm2PuIAAAAARxsjx0nq9ZVx4JBavZykXhAogiySFlIdbUSx/TkzNsHB370/OofxRaNpBoDDp4Q8xmeUaeLWWdYKSVx923zCiGtYt59hPe/7Qv7EF7Q3D0fk6ihbkSz2pl22BBCWApJZfJzMm0JJxxksD3bpdzolWpUSHzWjXc8Zd9a6iMMIGimgAZ4tI2d/hQAAAAvoyQs9rfAWahnFtA5MaOcdkdKwA==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtEuZCmTD2kSjLyzd/g/cEAAAAAACAAAAAAADZgAAwAAAABAAAAAOUhZUsroz/spzezxiw9QvAAAAAASAAACgAAAAEAAAACWI4pdi7ZTqnIbH833cqL6IAAAAddypaagUG5Ban4+tWDnh2vUsH8Xm0v++Ms7rqbfeRlf3OORNU37AOyY8kK6uC17UeWYMItIC2Np1J/AaJ39cDmavXlcKukmAWDGU4IxaFOnd23xkVf2zfrKwhtuZZTnyh7f3I/8Jt0eKsQPNuqZvDLMx8WaE5Xm8YhkXVhnMQQUu9e03PswIXRQAAAB0Llajs0tRGq1OgVK+nHkRAOEHvw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="TestGitHubPackage.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="Package1.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="TestGitHubPackage.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{74959975-24CB-48A5-9885-39760077058F}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{87334E58-E212-4A70-9E6D-6ADC76A8BF07}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">TestGitHubPackage</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{967121E7-9C37-48FC-96C8-D532A6AECF84}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="Package1.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{F041EC01-C336-4A41-9172-956893289783}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{DC8870BB-3E92-4944-BF23-F6C6570CECAF}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{14496897-EE05-4835-8091-4E742EB061FA}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
