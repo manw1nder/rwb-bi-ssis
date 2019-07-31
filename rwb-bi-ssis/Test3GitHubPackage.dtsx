@@ -5,15 +5,24 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="US-MEN-L0210"
   DTS:CreatorName="WISECOMANF\msingh"
-  DTS:DTSID="{F041EC01-C336-4A41-9172-956893289783}"
+  DTS:DTSID="{AE06B60C-1C49-454D-B581-50380BA96E81}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.0900.40"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="Test3GitHubPackage"
   DTS:PackageType="5"
-  DTS:VersionGUID="{14496897-EE05-4835-8091-4E742EB061FA}">
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{BDF6E3AB-FC75-406D-B3C7-4EF645CD83BB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
   <DTS:Executables />
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+</Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
