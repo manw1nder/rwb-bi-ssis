@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "rwb-bi-ssis", "rwb-bi-ssis\rwb-bi-ssis.dtproj", "{8BD4FAC7-577B-4CF1-9107-7351CB5339A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BD4FAC7-577B-4CF1-9107-7351CB5339A5}.Development|Default.ActiveCfg = Development
+		{8BD4FAC7-577B-4CF1-9107-7351CB5339A5}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0093509E-E7EE-48E7-9E4F-D516970ED723}
+	EndGlobalSection
+EndGlobal
